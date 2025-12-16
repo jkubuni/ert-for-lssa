@@ -57,7 +57,7 @@ set samples 1000, 1000
 set isosamples 10, 10
 set surface
 unset contour
-set clabel '%8.3g'
+set cntrlabel format '%8.3g'
 set mapping cartesian
 set datafile separator whitespace
 unset hidden3d
