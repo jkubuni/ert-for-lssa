@@ -1,0 +1,22 @@
+   115.11 FP64 GFLOPs
+
+  6455.97 Weight
+
+   916.64 L1
+    57.18 L2
+    44.33 L3
+    33.37 DRAM
+
+META_DATA
+  FLOPS          2
+  OPENMP_THREADS 12
+  ERT_VERSION  1.1.0
+  HOSTNAME  ('pve.fritz.box', ['pve'], ['192.168.188.21'])
+  UNAME  uname_result(system='Linux', node='pve', release='6.14.8-2-pve', version='#1 SMP PREEMPT_DYNAMIC PMX 6.14.8-2 (2025-07-22T10:04Z)', machine='x86_64')
+  TIMESTAMP_DATA  1765906823.285849
+  CONFIG  {'ERT_MPI': ['False'], 'ERT_OPENMP': ['True'], 'ERT_OPENMP_CFLAGS': ['-fopenmp'], 'ERT_OPENMP_LDFLAGS': ['-fopenmp'], 'ERT_PRECISION': ['FP64'], 'ERT_TRIALS_MIN': ['1'], 'ERT_TRIALS': ['3', '#', 'Run', 'each', 'test', '3', 'times', 'to', 'filter', 'out', 'background', 'noise'], 'ERT_RESULTS': ['Results/1600X'], 'ERT_GNUPLOT': ['gnuplot'], 'ERT_DRIVER': ['driver1'], 'ERT_KERNEL': ['kernel1'], 'ERT_CC': ['g++'], 'ERT_LD': ['g++'], 'ERT_CFLAGS': ['-O3', '-march=native', '-fopenmp', '-fstrict-aliasing', '-funroll-loops', '-Wno-all'], 'ERT_LDFLAGS': ['-O3', '-march=native', '-fopenmp'], 'ERT_LDLIBS': ['-lm'], 'ERT_RUN': ['export', 'OMP_NUM_THREADS=ERT_OPENMP_THREADS;', './ERT_CODE'], 'ERT_WORKING_SET_MIN': ['128'], 'ERT_MEMORY_MAX': ['1073741824'], 'ERT_ALIGN': ['64'], 'ERT_MIN_PROCS': ['1'], 'ERT_MAX_PROCS': ['1'], 'ERT_OPENMP_THREADS': ['1,2,4,8,12', '#', 'Logical', 'Threads'], 'ERT_NUM_EXPERIMENTS': ['5'], 'ERT_FLOPS': ['1,2,4,8'], 'ERT_GPU': [False], 'ERT_HIP': [False], 'ERT_OCL': [False], 'ERT_SYCL': [False], 'ERT_WSS_MULT': [1.1]}
+  TIMESTAMP_DATA  1765906834.0021048
+  TIMESTAMP_DATA  1765906844.7291315
+  TIMESTAMP_DATA  1765906855.4713736
+  TIMESTAMP_DATA  1765906866.1652899
+   
