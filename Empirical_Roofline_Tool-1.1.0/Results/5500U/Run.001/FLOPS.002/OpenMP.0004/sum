@@ -1,0 +1,22 @@
+   128.84 FP64 GFLOPs
+
+  7654.80 Weight
+
+  1025.21 L1
+    57.70 L2
+    44.06 L3
+    33.24 DRAM
+
+META_DATA
+  FLOPS          2
+  OPENMP_THREADS 4
+  ERT_VERSION  1.1.0
+  HOSTNAME  ('cachyos-laptop', [], ['127.0.1.1'])
+  UNAME  uname_result(system='Linux', node='cachyos-laptop', release='6.18.0-2-cachyos', version='#1 SMP PREEMPT_DYNAMIC Sat, 06 Dec 2025 07:42:36 +0000', machine='x86_64')
+  TIMESTAMP_DATA  1765907805.2765903
+  CONFIG  {'ERT_MPI': ['False'], 'ERT_OPENMP': ['True'], 'ERT_OPENMP_CFLAGS': ['-fopenmp'], 'ERT_OPENMP_LDFLAGS': ['-fopenmp'], 'ERT_PRECISION': ['FP64'], 'ERT_TRIALS_MIN': ['1'], 'ERT_TRIALS': ['3', '#', 'Run', 'each', 'test', '3', 'times', 'to', 'filter', 'out', 'background', 'noise'], 'ERT_RESULTS': ['Results/5500U'], 'ERT_GNUPLOT': ['gnuplot'], 'ERT_DRIVER': ['driver1'], 'ERT_KERNEL': ['kernel1'], 'ERT_CC': ['g++'], 'ERT_LD': ['g++'], 'ERT_CFLAGS': ['-O3', '-march=native', '-fopenmp', '-fstrict-aliasing', '-funroll-loops', '-Wno-all'], 'ERT_LDFLAGS': ['-O3', '-march=native', '-fopenmp'], 'ERT_LDLIBS': ['-lm'], 'ERT_RUN': ['export', 'OMP_NUM_THREADS=ERT_OPENMP_THREADS;', './ERT_CODE'], 'ERT_WORKING_SET_MIN': ['128'], 'ERT_MEMORY_MAX': ['1073741824'], 'ERT_ALIGN': ['64'], 'ERT_MIN_PROCS': ['1'], 'ERT_MAX_PROCS': ['1'], 'ERT_OPENMP_THREADS': ['1,2,4,8,12', '#', 'Logical', 'Threads'], 'ERT_NUM_EXPERIMENTS': ['5'], 'ERT_FLOPS': ['1,2,4,8'], 'ERT_GPU': [False], 'ERT_HIP': [False], 'ERT_OCL': [False], 'ERT_SYCL': [False], 'ERT_WSS_MULT': [1.1]}
+  TIMESTAMP_DATA  1765907817.650298
+  TIMESTAMP_DATA  1765907830.0252304
+  TIMESTAMP_DATA  1765907842.447337
+  TIMESTAMP_DATA  1765907854.808869
+   
