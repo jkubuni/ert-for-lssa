@@ -1,0 +1,21 @@
+   186.58 FP64 GFLOPs
+
+  3617.12 Weight
+
+   371.54 L1
+   241.28 L2
+    63.24 DRAM
+
+META_DATA
+  FLOPS          8
+  OPENMP_THREADS 2
+  ERT_VERSION  1.1.0
+  HOSTNAME  ('DESKTOP-1DMF7BU.localdomain', ['DESKTOP-1DMF7BU'], ['127.0.1.1'])
+  UNAME  uname_result(system='Linux', node='DESKTOP-1DMF7BU', release='6.6.87.2-microsoft-standard-WSL2', version='#1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025', machine='x86_64')
+  TIMESTAMP_DATA  1765959832.9092898
+  CONFIG  {'ERT_MPI': ['False'], 'ERT_OPENMP': ['True'], 'ERT_OPENMP_CFLAGS': ['-fopenmp'], 'ERT_OPENMP_LDFLAGS': ['-fopenmp'], 'ERT_PRECISION': ['FP64'], 'ERT_TRIALS_MIN': ['1'], 'ERT_TRIALS': ['3', '#', 'Run', 'each', 'test', '3', 'times', 'to', 'filter', 'out', 'background', 'noise'], 'ERT_RESULTS': ['Results/7800X3D'], 'ERT_GNUPLOT': ['gnuplot'], 'ERT_DRIVER': ['driver1'], 'ERT_KERNEL': ['kernel1'], 'ERT_CC': ['g++'], 'ERT_LD': ['g++'], 'ERT_CFLAGS': ['-O3', '-march=native', '-fopenmp', '-fstrict-aliasing', '-funroll-loops', '-Wno-all'], 'ERT_LDFLAGS': ['-O3', '-march=native', '-fopenmp'], 'ERT_LDLIBS': ['-lm'], 'ERT_RUN': ['export', 'OMP_NUM_THREADS=ERT_OPENMP_THREADS;', './ERT_CODE'], 'ERT_WORKING_SET_MIN': ['128'], 'ERT_MEMORY_MAX': ['1073741824'], 'ERT_ALIGN': ['64'], 'ERT_MIN_PROCS': ['1'], 'ERT_MAX_PROCS': ['1'], 'ERT_OPENMP_THREADS': ['1,2,4,8,16', '#', 'Logical', 'Threads'], 'ERT_NUM_EXPERIMENTS': ['5'], 'ERT_FLOPS': ['1,2,4,8,16', '#', '16', 'for', 'AVX-51'], 'ERT_GPU': [False], 'ERT_HIP': [False], 'ERT_OCL': [False], 'ERT_SYCL': [False], 'ERT_WSS_MULT': [1.1]}
+  TIMESTAMP_DATA  1765959843.1542027
+  TIMESTAMP_DATA  1765959850.447678
+  TIMESTAMP_DATA  1765959857.8437726
+  TIMESTAMP_DATA  1765959865.1762104
+   
